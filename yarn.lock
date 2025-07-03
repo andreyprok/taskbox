@@ -1097,6 +1097,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/addon-a11y@npm:8.2.10":
+  version: 8.2.10
+  resolution: "@storybook/addon-a11y@npm:8.2.10"
+  dependencies:
+    "@storybook/addon-highlight": "npm:8.2.10"
+    axe-core: "npm:^4.2.0"
+  peerDependencies:
+    storybook: ^8.2.10
+  checksum: 10c0/e9f73ce3e1670209f31104d382f0a06aea7c1a058ca8ff0b98260321344a2e84d32db71d73bbb7844639b17476f7f075908bb7fc8a4a7eafc700601fd580f772
+  languageName: node
+  linkType: hard
+
 "@storybook/addon-actions@npm:8.5.6":
   version: 8.5.6
   resolution: "@storybook/addon-actions@npm:8.5.6"
@@ -1172,6 +1184,17 @@ __metadata:
   peerDependencies:
     storybook: ^8.5.6
   checksum: 10c0/d0e97837ab3c17250e47e028fe2d07fbcc7714682ebf0b77ca35c37fe3a4f0428e390aaa247d90083ddef6d07bc0a49af4db43ea7da53af6441b5b2cbdea47b8
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-highlight@npm:8.2.10":
+  version: 8.2.10
+  resolution: "@storybook/addon-highlight@npm:8.2.10"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+  peerDependencies:
+    storybook: ^8.2.10
+  checksum: 10c0/fa21e1eb1aad5d04d617a2284cc69f632cb0f3220f7914885a43ff3974aa6b6e4fee96a480e6fa84267b6911f72e4ffd742c247915169ef8664dea606ff89a3e
   languageName: node
   linkType: hard
 
@@ -2085,6 +2108,13 @@ __metadata:
   dependencies:
     possible-typed-array-names: "npm:^1.0.0"
   checksum: 10c0/d07226ef4f87daa01bd0fe80f8f310982e345f372926da2e5296aecc25c41cab440916bbaa4c5e1034b453af3392f67df5961124e4b586df1e99793a1374bdb2
+  languageName: node
+  linkType: hard
+
+"axe-core@npm:^4.2.0":
+  version: 4.10.3
+  resolution: "axe-core@npm:4.10.3"
+  checksum: 10c0/1b1c24f435b2ffe89d76eca0001cbfff42dbf012ad9bd37398b70b11f0d614281a38a28bc3069e8972e3c90ec929a8937994bd24b0ebcbaab87b8d1e241ab0c7
   languageName: node
   linkType: hard
 
@@ -3521,6 +3551,7 @@ __metadata:
   resolution: "intro-storybook-react-template@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.9.0"
+    "@storybook/addon-a11y": "npm:8.2.10"
     "@storybook/addon-essentials": "npm:^8.5.6"
     "@storybook/addon-interactions": "npm:^8.5.6"
     "@storybook/addon-links": "npm:^8.5.6"
