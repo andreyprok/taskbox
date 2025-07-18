@@ -39,6 +39,9 @@ export default function Task({
           name="title"
           id={`title-${id}`}
           placeholder="Input title"
+        style={{ textOverflow: "ellipsis", background: 'red' }}
+
+        // лаовылдаовдлыо лолдавоыл аддло лдолд олдлоадлвыоладо вылдаолдв ыоалдвыоалдовылдаовлдыоалдвыоалдофвылдао лдволдоадлвфыоалд оввлдаофвыдлжоадл волдаовыфлдаовлдфо лдавфо длаовфыдл аодлвыоадлаовыоадлвоал овлдыо алдвыоа лдвыоалдвыфTask
         />
       </label>
       {state !== "TASK_ARCHIVED" && (
